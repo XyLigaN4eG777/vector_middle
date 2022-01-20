@@ -2,12 +2,15 @@
 
 long itc_sum_even_lst(const vector <int>& lst)
 {
-	int i = 0, len = lst.size();
-	long out = 0;
+	int i;
+	i = 0;
+	int len;
+	len = lst.size();
+	long n = 0;
 	while (i < len)
 	{
-		out = out + lst[i];
-		i = i + 2;
+	    n = n+ lst[i];
+	    i = i + 2;
 	}
-	return out;
+	return n;
 }
