@@ -5,8 +5,9 @@
 
 using namespace std;
 
-
-//main functions
+int get_len_str(string str);
+void out_vect_char(vector <char>& vec);
+void out_vect_int(const vector <int>& vec);
 vector <char> itc_strtlist(string str);
 string itc_join(vector <char> lst, string sep);
 string itc_rmstrspc(string str);
@@ -18,10 +19,5 @@ void itc_odd_even_separator_lst(const vector <int>& lst, vector <int>& lst1, vec
 void itc_pos_neg_separator_lst(const vector <int>& lst, vector <int>& pol, vector <int>& nol, vector <int>& otr);
 void itc_odd_even_analysis_lst(const vector <int>& lst);
 void itc_pos_neg_analysis_lst(const vector <int>& lst);
-
-
-int get_len_str(string str);
-void out_vect_char(vector <char>& vec);
-void out_vect_int(const vector <int>& vec);
 
 #endif // MIDDLE_LIST_H_INCLUDED
