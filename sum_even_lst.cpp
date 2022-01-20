@@ -9,7 +9,7 @@ long itc_sum_even_lst(const vector <int>& lst)
 	long n = 0;
 	while (i < len)
 	{
-	    n = n+ lst[i];
+	    n = n + lst[i];
 	    i = i + 2;
 	}
 	return n;
